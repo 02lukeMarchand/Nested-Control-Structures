@@ -22,5 +22,9 @@ Program: For Loop + While Loop
 This program will create a for loop with a while loop embedded into it
 '''
 
-
-
+for i in range (4):
+    print("outer for loop: " str(i))
+    x = 6
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1
